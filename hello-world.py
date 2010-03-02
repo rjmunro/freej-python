@@ -1,4 +1,5 @@
-# system wide useful modules
+#!/usr/bin/env python
+# System wide useful modules
 import threading
 import time
 
