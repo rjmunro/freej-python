@@ -29,8 +29,8 @@ if(sys.argv.__len__()<2):
 # opens the file given on commandline as a layer
 lay = cx.open(sys.argv[1])
 
-# gets the vertigo filter effect
-filt = cx.filters["vertigo"]
+# gets the Water filter effect
+filt = cx.filters["Water"]
 
 # adds the filter to the layer
 lay.add_filter(filt)
