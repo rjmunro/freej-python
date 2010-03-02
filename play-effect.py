@@ -9,8 +9,11 @@ import freej
 # initializes FreeJ creating a Context
 cx = freej.Context()
 
-# creates a screen of given size
-scr = freej.SdlScreen(400, 300)
+# creates a screen (different to docs)
+scr = freej.SdlScreen()
+
+# Initialise the screen to the given size (I chose Widescreen PAL resolution) (not in docs)
+scr.init(1024,576,32)
 
 # adds the screen
 cx.add_screen(scr)
