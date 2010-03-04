@@ -4,7 +4,8 @@ import freej
 
 # context and screen initialization
 cx = freej.Context()
-scr = freej.SdlScreen( 400, 300 )
+scr = freej.SdlScreen()
+scr.init(1024,576,32)
 cx.add_screen(scr)
 
 ### declare the Trigger Controller
@@ -17,7 +18,8 @@ class Frame(freej.TriggerController):
   def dispatch(self):
     ### rotate around 360 degrees, incrementing
     ### this function is called once every frame
-    if self.i>360: self.i=0
+    if self.i>360:
+      self.i=0
     self.i += 1
     self.txt.set_rotate( self.i )
     return 1
@@ -29,7 +31,7 @@ f = Frame()
 f.i = 0
 ### create a text layer inside the controller
 f.txt = freej.TextLayer()
-f.txt.init(cx)
+f.txt.init()
 f.txt.write("Hello World!")
 f.txt.start()
 cx.add_layer(f.txt)
