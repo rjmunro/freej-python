@@ -1,0 +1,41 @@
+Example scripts for using FreeJ in python
+=========================================
+
+The files:
+  controller.py
+  hello-world.py
+  play-effect.py
+
+are based on the python examples in the freej manual that can be found at,
+http://freej.org/docs/freej-manual-EN.pdf, updated to work with the lastest
+freej trunk code.
+
+list-filters.py was written by rjmunro and will list all the filter effects
+currently installed.
+
+This collection of scripts has been assembled by Robert (Jamie) Munro,
+rjmunro@arjam.net.
+
+Copyright
+---------
+
+Portions of these scripts have been taken from the freej manual.
+ (c) 2003 - 2008 Denis Jaromil Rojo
+
+Improvements / updates have been made by rjmunro
+ (c) 2010 Robert (Jamie) Munro; rjmunro@arjam.net
+
+This  source code  is free  software; you  can redistribute  it and/or
+modify it  under the terms of  the GNU Public License  as published by
+the Free Software Foundation; either  version 3 of the License, or (at
+your option) any later version.
+
+This source  code is distributed in  the hope that it  will be useful,
+but  WITHOUT  ANY  WARRANTY;  without  even the  implied  warranty  of
+MERCHANTABILITY or FITNESS FOR  A PARTICULAR PURPOSE.  Please refer to
+the GNU Public License for more details.
+
+You should have  received a copy of the GNU  Public License along with
+this source  code; if not,  write to: Free Software  Foundation, Inc.,
+675 Mass Ave, Cambridge, MA 02139, USA.
+
