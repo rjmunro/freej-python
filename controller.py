@@ -37,6 +37,7 @@ f.txt.start()
 cx.add_layer(f.txt)
 
 # register it on the current context
+import pdb; pdb.set_trace() # Start debugger - next line breaks
 cx.register_controller(f)
 
 # start running freej in a separate thread
